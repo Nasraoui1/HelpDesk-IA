@@ -1,0 +1,47 @@
+version: '3.8'
+
+networks:
+  helpdesk-net:
+    driver: bridge
+
+volumes:
+  n8n_storage:
+  baserow_data:
+
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:latest
+    restart: always
+    ports:
+      - "5678:5678"
+    networks:
+      - helpdesk-net
+    environment:
+      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+      - WEBHOOK_URL=http://localhost:5678/
+    volumes:
+      - n8n_storage:/home/node/.n8n
+
+  baserow:
+    image: baserow/baserow:latest
+    restart: always
+    ports:
+      - "8080:80"
+      - "443:443"
+    networks:
+      - helpdesk-net
+    environment:
+      - BASEROW_PUBLIC_URL=http://localhost:8080
+      - BASEROW_CADDY_ADDRESSES=:80
+      - BASEROW_TRIGGER_SYNC_TEMPLATES_AFTER_MIGRATION=false
+    volumes:
+      - baserow_data:/baserow/data
+
+  mailpit:
+    image: axllent/mailpit:latest
+    restart: always
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+    networks:
+      - helpdesk-net
