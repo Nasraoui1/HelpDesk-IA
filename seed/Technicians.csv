@@ -1,0 +1,3 @@
+﻿id,Name,email,skills,open_tickets,available,Tickets
+1,Alice Martin,alice@northwind.com,"hardware,network",2,True,TICK-20261022-9359
+2,Bob Bernard,bob@northwind.com,"network,access",1,True,TICK-20261022-6908

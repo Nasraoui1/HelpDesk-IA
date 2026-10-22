@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Procédure de connexion au VPN Cisco AnyConnect",
+    "category": "network",
+    "keywords": "vpn, cisco, anyconnect, connexion, télétravail, réseau",
+    "content": "Pour vous connecter au réseau d'entreprise depuis votre poste en télétravail :\n1. Lancez le client Cisco AnyConnect Secure Mobility Client.\n2. Saisissez l'adresse de passerelle : vpn.northwind.com:443.\n3. Entrez vos identifiants Active Directory (votre email d'entreprise et votre mot de passe habituel).\n4. Validez l'invite d'authentification multifacteur (MFA) reçue sur votre application mobile.\nEn cas d'échec répété, redémarrez votre box internet et assurez-vous qu'aucun antivirus tiers ne bloque le port 443."
+  },
+  {
+    "title": "Réinitialisation de mot de passe et déblocage de compte",
+    "category": "access",
+    "keywords": "mot de passe, password, active directory, compte bloqué, login, accès",
+    "content": "Si votre compte Windows est verrouillé suite à plusieurs tentatives erronées :\n1. Attendez 15 minutes pour le déverrouillage automatique de sécurité.\n2. Si le problème persiste, rendez-vous sur le portail interne https://password.northwind.internal depuis un appareil connecté.\n3. Renseignez votre adresse email et répondez à vos questions de sécurité.\n4. Votre nouveau mot de passe doit comporter au moins 12 caractères, incluant majuscules, minuscules, chiffres et un caractère spécial."
+  },
+  {
+    "title": "Demande et gestion des licences logicielles",
+    "category": "software",
+    "keywords": "licence, logiciel, software, office, figma, jetbrains, installation",
+    "content": "L'attribution des licences bureautiques et métiers est automatisée selon votre rôle :\n- Pack Microsoft 365 : attribué par défaut à tout nouvel arrivant dès la création du compte.\n- JetBrains & GitHub Copilot : réservé à l'équipe Tech sur simple validation du Lead Dev.\n- Adobe Creative Cloud & Figma : réservé aux équipes Marketing et Produit.\nToute demande complémentaire doit être formalisée avec l'accord écrit du manager direct."
+  },
+  {
+    "title": "Remplacement et commande de matériel informatique",
+    "category": "hardware",
+    "keywords": "matériel, hardware, écran, clavier, souris, chargeur, docking, ordinateur",
+    "content": "Le catalogue de matériel standard Northwind Industries comprend :\n- Écran externe 27 pouces Dell USB-C avec hub intégré.\n- Ensemble clavier/souris sans fil ergonomique Logitech.\n- Câble de chargeur USB-C 65W ou 100W.\nPour toute demande de renouvellement ou commande de périphérique défectueux, précisez le numéro de série de votre PC portable dans la demande."
+  },
+  {
+    "title": "Résolution des incidents de poste de travail Windows 11",
+    "category": "hardware",
+    "keywords": "windows, écran bleu, crash, lenteur, redémarrage, mise à jour",
+    "content": "En cas de dysfonctionnement de votre poste de travail (écran bleu BSOD, freeze système) :\n1. Débranchez tous les périphériques externes (écrans, stations d'accueil, clés USB).\n2. Maintenez le bouton d'alimentation enfoncé pendant 15 secondes pour forcer une réinitialisation électrique complète.\n3. Rallumez le PC et vérifiez la présence de mises à jour dans Windows Update."
+  }
+]

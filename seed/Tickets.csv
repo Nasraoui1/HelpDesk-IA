@@ -1,0 +1,7 @@
+﻿id,reference,subject,description,category,priority,status,tags,collaborator,technician,created_at,AuditLog
+1,,,false,,,,,,,,
+2,,,false,,,,,,,,
+3,TICK-20261022-6908,VPN connection issue,Cannot connect to internal servers,network,P2,new,,Jean,Bob Bernard,2026-10-22T08:17:58.199-04:00,2026-10-22T09:17:54.873-04:00
+4,TICK-20261022-2002,test,tesssst,other,P3,new,manual_review,,,2026-10-22T09:24:47.635-04:00,
+5,TICK-20261022-2002,test,tesssst,other,P4,new,manual_review,,,2026-10-22T09:24:47.635-04:00,2026-10-22T09:31:47.784-04:00
+6,TICK-20261022-9359,Panne switch réseau Paris,"Le switch principal de Paris ne répond plus, tout le réseau interne et VPN est coupé.",network,P1,new,,Jean,Alice Martin,2026-10-22T09:53:24.967-04:00,2026-10-22T09:53:34.065-04:00

@@ -1,0 +1,50 @@
+[
+  {
+    "first_name": "Jean",
+    "last_name": "Dupont",
+    "email": "test@test.com",
+    "team": "Tech",
+    "site": "Paris",
+    "role": "Développeur Senior"
+  },
+  {
+    "first_name": "Sophie",
+    "last_name": "Laurent",
+    "email": "sophie.laurent@northwind.com",
+    "team": "Sales",
+    "site": "Paris",
+    "role": "Commerciale Grand Compte"
+  },
+  {
+    "first_name": "Thomas",
+    "last_name": "Bernard",
+    "email": "thomas.bernard@northwind.com",
+    "team": "HR",
+    "site": "Lyon",
+    "role": "Responsable RH"
+  },
+  {
+    "first_name": "Emma",
+    "last_name": "Petit",
+    "email": "emma.petit@northwind.com",
+    "team": "Operations",
+    "site": "Paris",
+    "role": "Cheffe de projet Logistique"
+  },
+  {
+    "first_name": "Lucas",
+    "last_name": "Roux",
+    "email": "lucas.roux@northwind.com",
+    "team": "Tech",
+    "site": "Lyon",
+    "role": "Ingénieur DevOps"
+  },
+  {
+    "first_name": "Claire",
+    "last_name": "Dubois",
+    "email": "claire.dubois@northwind.com",
+    "team": "Sales",
+    "site": "Lyon",
+    "role": "Chargée de clientèle"
+  }
+]

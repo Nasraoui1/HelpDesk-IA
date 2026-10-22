@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Alice Martin",
+    "email": "alice@northwind.com",
+    "skills": ["access", "software", "onboarding"],
+    "open_tickets": 0,
+    "available": true
+  },
+  {
+    "name": "Bob Bernard",
+    "email": "bob@northwind.com",
+    "skills": ["network", "hardware"],
+    "open_tickets": 0,
+    "available": true
+  },
+  {
+    "name": "Charlie Chen",
+    "email": "charlie@northwind.com",
+    "skills": ["hardware", "software", "access"],
+    "open_tickets": 0,
+    "available": true
+  }
+]
