@@ -22,6 +22,15 @@ Start the complete stack:
 
 docker compose up -d
 
+```bash
+python seed/init_baserow.py --email VOTRE_EMAIL_BASEROW --password VOTRE_MOT_DE_PASSE
+```
+
+Exemple par défaut :
+```bash
+python seed/init_baserow.py
+```
+
 
 Access the services:
 
